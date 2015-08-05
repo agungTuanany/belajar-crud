@@ -112,6 +112,11 @@ public class ScreenData extends JFrame {
 
 		table.setModel(pegawaiTableModel);
 		pegawaiTableModel.setItem(pegawaiDao.getAll());
+		
+		// get same error  java.lang.NullPointerException.
+		
+	//	jtabledatabarang.setModel(databarangTabelModel); //252
+	//	databarangTabelModel.setItem(databarangDao.getAll());
 
 	}
 }
